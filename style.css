@@ -7,17 +7,19 @@ body {
 .top-bar {
     width: 100dvw;
     height: 8dvh;
-    background: #bd0b0b;
+    background: #fc0303;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .top-bar a {
-    flex: 1;
-    text-align: center;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 30px;
+    background: #ad0303;
+    margin: 0px 20px;
     text-decoration: none;
-    color: rgb(136, 0, 0);
-    font-weight: 1000;
 }
 
 .top-bar a:hover {
