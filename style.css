@@ -6,20 +6,25 @@ body {
 
 .top-bar {
     width: 100dvw;
-    height: 8dvh;
+    height: fit-content;
     background: #fc0303;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 0px;
 }
 
 .top-bar a {
     color: #ffffff;
-    padding: 10px 25px;
-    border-radius: 30px;
+    border-radius: 20px;
     background: #ad0303;
     margin: 0px 20px;
     text-decoration: none;
+    align-content: center;
+    width: 90px;
+    height: 90px;
+    font-size: 15px;
+    text-align: center;
 }
 
 .top-bar a:hover {
@@ -50,7 +55,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     background-color: white;
-    height: 54em;
 }
 
 .product-container {
