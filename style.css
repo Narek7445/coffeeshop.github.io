@@ -45,9 +45,9 @@ body {
 }
 
 .product-image {
-    border: 1px solid black;
-    width: 80%;
-    height: 100%;
+    width: 250px;
+    height: 250px;
+    margin: 0;
 }
 
 .products-grid {
@@ -58,11 +58,33 @@ body {
 }
 
 .product-container {
-    background: #eee;
-    padding: 10px;
+    background: #e3e3e1;
+    padding: 30px;
     margin: 10px 20px;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    border-radius: 25%;
+    width: 300px;
+    height: fit-content;
+}
+
+.product-addtocart {
+    border: 0px;
+    background: #fc0303;
+    padding: 10px 20px;
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 22px;
+    border-radius: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif\;
+}
+
+.product-description, .product-cost {
+    margin: 2px;
+}
+
+.product-description, .product-cost {
+    font-size: 25px;
 }
