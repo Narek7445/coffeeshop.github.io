@@ -105,7 +105,6 @@ body {
     border: 0px;
     top: 0;
     height: 100dvh;
-    transition: 0.2s;
 }
 
 #product-categories p {
@@ -119,6 +118,19 @@ body {
     cursor: default;
 }
 
-#product-categories p:hover {
+#product-categories p:hover, #close-categories:hover {
     scale: 1.1;
+}
+
+#close-categories {
+    border: 0px;
+    background: white;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 5%;
+    font-weight: 1000;
+    color: rgb(100, 0, 0);
+    transition: 0.1s;
 }
