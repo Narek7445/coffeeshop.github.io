@@ -87,6 +87,7 @@ body {
 
 .product-description, .product-cost {
     margin: 2px;
+    cursor: default;
 }
 
 .product-description, .product-cost {
@@ -95,8 +96,6 @@ body {
 
 #product-categories {
     position: fixed;
-    left: 10px;
-    top: 12%;
     background: #fc0303;
     display: flex;
     align-items: center;
@@ -104,6 +103,8 @@ body {
     height: 143px;
     padding: 10px 30px;
     border: 0px;
+    top: 0;
+    height: 100dvh;
     transition: 0.2s;
 }
 

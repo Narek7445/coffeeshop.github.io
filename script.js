@@ -26,7 +26,9 @@ function configCategories(){
     openCategories.addEventListener("click", ()=>{
         if (debounce) {return};
         debounce = true;
-        categories.style.left = (categories.style.left == defaultLeft) ? '-50%' : defaultLeft;
+        
+        categories.style.left = defaultLeft;
+
         setTimeout(() => {
             debounce = false;
         }, 1000);
