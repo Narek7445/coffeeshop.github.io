@@ -4,6 +4,10 @@ body {
     max-height: 100dvh;
 }
 
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif\;
+}
+
 .top-bar {
     width: 100dvw;
     height: fit-content;
@@ -14,7 +18,7 @@ body {
     padding: 10px 0px;
 }
 
-.top-bar a {
+.top-bar button {
     color: #ffffff;
     border-radius: 20px;
     background: #ad0303;
@@ -25,6 +29,7 @@ body {
     height: 90px;
     font-size: 15px;
     text-align: center;
+    border: 0px;
 }
 
 .top-bar a:hover {
@@ -78,7 +83,6 @@ body {
     margin-top: 5px;
     font-size: 22px;
     border-radius: 35px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif\;
 }
 
 .product-description, .product-cost {
@@ -87,4 +91,32 @@ body {
 
 .product-description, .product-cost {
     font-size: 25px;
+}
+
+#product-categories {
+    position: fixed;
+    left: 10px;
+    top: 12%;
+    background: #fc0303;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 143px;
+    padding: 10px 30px;
+    border: 0px;
+    transition: 0.2s;
+}
+
+#product-categories p {
+    color: white;
+    font-weight: 1000;
+    background: #ad0303;
+    padding: 5px 10px;
+    width: 100px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+#product-categories p:hover {
+    scale: 1.1;
 }
