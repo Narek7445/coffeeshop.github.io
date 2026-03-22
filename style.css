@@ -115,6 +115,7 @@ body {
     width: 100px;
     text-align: center;
     transition: 0.2s;
+    cursor: default;
 }
 
 #product-categories p:hover {
